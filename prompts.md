@@ -1,0 +1,5 @@
+1.I want to build a Book Tracker web page using plain HTML, CSS and JavaScript. Features: add a book with title, author and status, show the list newest first, search, change status, and keep the data after a refresh.
+2.Create index.html, style.css and app.js. Add a form with Title, Author and a Status dropdown (To read, Reading, Finished). When I click Add, show the book at the top of a list. Title and Author are required. If one is empty, show a message under that box.
+3.Save the book list in localStorage so it is still there after I refresh the page. Load the saved list when the page opens.
+4.Add a search box above the list. As I type, show only books whose title or author contains the text, ignoring capital letters.
+5.For a pc, a menu should be visible when the mouse pointer hovers over the book.For a phone, the menu should be visible when the user long touches the book.

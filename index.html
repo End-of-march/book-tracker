@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Book Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Book Tracker</h1>
+
+    <form id="book-form" novalidate>
+      <div class="field">
+        <label for="title">Title</label>
+        <input id="title" type="text" />
+        <p class="error" id="title-error"></p>
+      </div>
+      <div class="field">
+        <label for="author">Author</label>
+        <input id="author" type="text" />
+        <p class="error" id="author-error"></p>
+      </div>
+      <div class="field">
+        <label for="status">Status</label>
+        <select id="status">
+          <option>To read</option>
+          <option>Reading</option>
+          <option>Finished</option>
+        </select>
+      </div>
+      <button type="submit">Add</button>
+    </form>
+
+    <input id="search" type="search" placeholder="Search by title or author…" />
+
+    <ul id="book-list"></ul>
+    <p id="empty" class="empty">No books yet.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
